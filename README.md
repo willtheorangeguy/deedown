@@ -6,3 +6,5 @@ This repository only contains the scripts to run the Python programs. It assumes
 
 `1_playlists.cmd` and `3_move.cmd` are run from Command Prompt or PowerShell.
 `2_download.sh` needs to be run from a Linux install on [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10). 
+
+Finally, the downloaded files can be imported into [MusicBee](https://www.getmusicbee.com/) and synced between devices. 
