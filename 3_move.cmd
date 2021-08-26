@@ -6,5 +6,5 @@ robocopy /move /e /nfl /njh "%USERPROFILE%\Downloads\deedwn\music" "%USERPROFILE
 
 rem Finished!
 echo All playlists have been moved!
-rmdir /s /q deedwn
+rmdir /s /q "%USERPROFILE%\Downloads\deedwn"
 cd "Deemix Music"
