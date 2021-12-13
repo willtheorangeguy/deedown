@@ -5,6 +5,7 @@ Automatic playlist updater, and deemix track downloader. Syncs Spotify playlists
 
 ## Requirements
 - Windows 10 (Version 1903 or higher, with Build 18362 or higher)
+- A [text editor](https://code.visualstudio.com/)
 - Windows Subsystem for Linux
 - An [Ubuntu](https://www.microsoft.com/store/apps/9n6svws3rx71), [Kali](https://www.microsoft.com/store/apps/9PKR34TNCV07) or [Debian](https://www.microsoft.com/store/apps/9MSVKQC78PK6) image from the Microsoft Store (others may work, but are untested)
 - [Python 3](https://www.python.org/downloads/) (and `pip`)
