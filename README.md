@@ -78,7 +78,7 @@ The following are areas I could use help:
 - [ ] Sync with the Deezer API, so you don't have to paste the playlist link
 
 ## Licensing
-This project is licensed under the [GNU General Public License v3.0](https://github.com/willtheorangeguy/deedown/blob/main/LICENSE).
+© 2021-2022 [@willtheorangeguy](https://github.com/willtheorangeguy). This project is licensed under the [GNU General Public License v3.0](https://github.com/willtheorangeguy/deedown/blob/main/LICENSE). 
 ### Spotify Backup
 Unlicensed
 ### Spotify Playlists 2 Deezer
