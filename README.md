@@ -50,7 +50,7 @@
 
 ## Download
 
-You can **[download](https://gitlab.com/willtheorangeguy/deedown/-/releases) the source code** to run the CLI scripts from the command line on Windows. **This will require [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10), [Python](https://www.python.org/downloads/), the Windows Subsystem for Linux and [a Linux Image](https://www.microsoft.com/en-ca/store/top-free/apps/pc?category=Developer+tools).
+You can **[download](https://gitlab.com/willtheorangeguy/deedown/-/releases) the source code** to run the CLI scripts from the command line on Windows. **This will require [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10), [Python](https://www.python.org/downloads/), the Windows Subsystem for Linux and [a Linux Image](https://www.microsoft.com/en-ca/store/top-free/apps/pc?category=Developer+tools)**.
 
 ## How To Use
 
