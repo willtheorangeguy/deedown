@@ -141,7 +141,7 @@ This software uses the following open source packages, projects, services or web
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" width="150" height="150" alt="Spotify"/></th>
-    <th align="center"><img src="https://store-images.s-microsoft.com/image/apps.41003.13510798886741797.d0774d94-0f96-433c-b2ab-c08aa41d3626.3935caf6-f045-4250-b1df-8df5511f8187" width="150" height="150" alt="Deezer"/></th>
+    <th align="center"><img src="https://store-images.s-microsoft.com/image/apps.41003.13510798886741797.d0774d94-0f96-433c-b2ab-c08aa41d3626.3935caf6-f045-4250-b1df-8df5511f8187" width="150" height="180" alt="Deezer"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
@@ -172,8 +172,8 @@ This project uses many scripts from many different people. Thanks to them, as th
 
 ## You may also like...
 
-* [deedown](https://github.com/willtheorangeguy/deedown) - A minimal CLI to keep you inspired during your workout!
-* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
+* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running distance and speed command line interface.
+* [Snoopy Landing Page](https://github.com/willtheorangeguy/Snoopy-Landing-Page) - A simple under construction landing page that features Charles M. Schulz's iconic Snoopy Beagle.
 * [Python Logo Widgets](https://github.com/willtheorangeguy/Python-Logo-Widgets) - Python Powered Logo widgets that can be added to any GUI project.
 
 ## License
