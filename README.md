@@ -137,7 +137,7 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="165" height="150" alt="GitHub"/></th>
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="130" height="130" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" width="180" height="150" alt="Spotify"/></th>
