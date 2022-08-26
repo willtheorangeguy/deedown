@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-Last updated: March 01, 2022.
+Last updated: August 26, 2022.
 
 Please read these terms and conditions carefully before using deedown.
 
@@ -36,7 +36,11 @@ Your access to and use of the Service is also conditioned on Your acceptance of 
 
 ## Links to Other Websites
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
+Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company. The following third parties were used to build this website:
+
+- [GitLab](https://about.gitlab.com/terms/)
+- [Spotify](https://www.spotify.com/ca-en/legal/end-user-agreement/)
+- [Deezer](https://www.deezer.com/legal/cgu)
 
 The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
 
@@ -96,4 +100,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown).
+- By visiting our GitHub page: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown).
