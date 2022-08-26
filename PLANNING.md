@@ -19,3 +19,5 @@
 - https://stackoverflow.com/questions/122327/how-do-i-find-the-location-of-my-python-site-packages-directory?rq=1
 - https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7
 - https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash
+
+**More planning ideas can be found on the [Issues page](https://github.com/willtheorangeguy/deedown/issues).**

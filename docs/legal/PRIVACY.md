@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: March 01, 2022.
+Last updated: August 26, 2022.
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -42,9 +42,13 @@ Usage Data is collected automatically and anonymously when using the Service.
 
 Usage Data may include information such as Your Device's operating system, Python version, local time and timezone.
 
-### Workout Data
+### Spotify Account Data
 
-Usage Data is collected automatically and anonymously when using the Service.
+Data used to log in to your Spotify account is used by the application to transfer your playlists.
+
+### Deezer Account Data
+
+Data used to log in to your Deezer account is used by the application to transfer your playlists, and to download them. This may include information such as you Application Key, Secret Key, and User ID.
 
 ## Use of Your Personal Data
 
@@ -55,8 +59,6 @@ The Company may use Personal Data for the following purposes:
 ## Retention of Your Personal Data
 
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
-
-**Personal data is only recorded locally on the computer, and never sent to servers.**
 
 ## Disclosure of Your Personal Data
 
@@ -90,7 +92,11 @@ If We need to rely on consent as a legal basis for processing Your information a
 
 ## Links to Other Websites
 
-Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. The following third parties were used to build this website:
+
+- [GitLab](https://about.gitlab.com/privacy/)
+- [Spotify](https://www.spotify.com/ca-en/legal/privacy-policy/)
+- [Deezer](https://www.deezer.com/legal/personal-datas)
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
@@ -106,4 +112,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown).
+- By visiting our GitHub page: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown).
