@@ -8,7 +8,7 @@
 
 <!-- Copy -->
 <h4 align="center">Easily display all of your creative avatars to keep them consistent across websites.</h4>
-<h4 align="center"><strong>This is only a placeholder repo, the full code and documentation can be found on <a href="https://gitlab.com/willtheorangeguy/deedown">Gitlab</a>.</strong></h4>
+<h4 align="center"><strong>This is only a placeholder repo, the full code and documentation can be found on <a href="https://gitlab.com/willtheorangeguy/deedown">GitLab</a>.</strong></h4>
 
 <!-- Badges -->
 <div align="center">
@@ -137,11 +137,11 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="165" height="150" alt="GitHub"/></th>
-    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="130" height="130" alt="PSF"/></th>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
-    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" width="180" height="150" alt="Spotify"/></th>
-    <th align="center"><img src="https://store-images.s-microsoft.com/image/apps.41003.13510798886741797.d0774d94-0f96-433c-b2ab-c08aa41d3626.3935caf6-f045-4250-b1df-8df5511f8187" width="150" height="150" alt="Deezer"/></th>
+    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" width="150" height="150" alt="Spotify"/></th>
+    <th align="center"><img src="https://pnggrid.com/wp-content/uploads/2021/12/Deezer-Music-Logo-Transparent.png" width="150" height="150" alt="Deezer"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
