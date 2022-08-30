@@ -10,6 +10,7 @@
 - [ ] Built in Deezer playlist links.
 
 ## Resource Links
+
 - https://stackoverflow.com/questions/3439954/looping-through-string-values-from-a-windows-command-line-bat-file
 - https://stackoverflow.com/questions/9228950/what-is-the-alternative-for-users-home-directory-on-windows-command-prompt
 - https://janakiev.com/blog/python-shell-commands/
