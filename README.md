@@ -7,8 +7,7 @@
 </h1>
 
 <!-- Copy -->
-<h4 align="center">Easily display all of your creative avatars to keep them consistent across websites.</h4>
-<h4 align="center"><strong>This is only a placeholder repo, the full code and documentation can be found on <a href="https://gitlab.com/willtheorangeguy/deedown">GitLab</a>.</strong></h4>
+<h4 align="center">Automatic Spotify to Deezer playlist updater, and deemix track downloader. <strong>This is only a placeholder repo, the full code and documentation can be found on <a href="https://gitlab.com/willtheorangeguy/deedown">GitLab</a>.</strong></h4>
 
 <!-- Badges -->
 <div align="center">
