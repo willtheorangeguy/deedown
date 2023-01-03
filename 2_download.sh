@@ -30,5 +30,5 @@ declare -a playlists=( "https://www.deezer.com/en/playlist/9416521802"
                       )
 for i in "${playlists[@]}"
 do
-   deemix --bitrate 128 $i
+   deemix --bitrate 128 "$i"
 done
