@@ -1,5 +1,5 @@
 rem deedown - Automatic Spotify to Deezer playlist updater, and deemix track downloader. 
-rem Copyright (C) 2020-2022 @willtheorangeguy
+rem Copyright (C) 2020-2023 @willtheorangeguy
 
 rem This program is free software: you can redistribute it and/or modify
 rem it under the terms of the GNU General Public License as published by
