@@ -140,7 +140,7 @@ This software uses the following open source packages, projects, services or web
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" width="150" height="150" alt="Spotify"/></th>
-    <th align="center"><img src="https://pnggrid.com/wp-content/uploads/2021/12/Deezer-Music-Logo-Transparent.png" width="150" height="150" alt="Deezer"/></th>
+    <th align="center"><img src="https://play-lh.googleusercontent.com/r55K1eQcji3QMHRKERq6zE1-csoh_MTOHiKyHTuTOblhFi_rIz06_8GN5-DHUGJOpn79=w240-h480-rw" width="150" height="150" alt="Deezer"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
