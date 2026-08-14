@@ -123,7 +123,7 @@ More documentation is available in the **[Documentation](https://github.com/will
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/deedown/compare). **If the contribution relates to the full program code, submit [a merge request on Gitlab](https://gitlab.com/willtheorangeguy/deedown/-/merge_requests/new).**
 
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+Please read [`CONTRIBUTING`](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## Changelog
 
