@@ -1,6 +1,14 @@
-# deedown Usage
+# deedown — Usage
 
-Follow these steps to set up _deedown_ and ensure it does what it is supposed to.
+The twelve steps, in order. [Installation](./installation.md) covers what must be in place first,
+and [Configuration](./configuration.md) covers each value you will be asked to set.
+
+> **This repository does not contain the Python package these steps use.** `deedown/` — with
+> `get_playlists.py` and `secrets.py` — lives on
+> [GitLab](https://gitlab.com/willtheorangeguy/deedown). Step 7 will fail without it.
+
+> **Step 11 asks for your Deezer `arl` cookie.** That is a session token granting full access to
+> your account, not a scoped API key. Paste it into the terminal that asks and nowhere else.
 
 1. Ensure you have downloaded the code from this repo, and installed Python 3, Windows 10 and the Windows Subsystem for Linux ([instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)).  
 2. Extract the downloaded `.zip` file to the directory where you would like to access _deedown_. The best option is your user folder.

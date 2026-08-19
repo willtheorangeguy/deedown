@@ -1,6 +1,10 @@
-# deedown Requirements
+# deedown — Installation
 
-All the following operating systems, programs and Python packages must be installed in order for _deedown_ to work!
+Everything below must be in place before any of the three scripts will run. deedown is
+Windows-plus-WSL only: two scripts are `cmd`, one is bash, and `deemix` is a Linux tool.
+
+> The Python package the scripts call is **not in this repository** — get `deedown/` from
+> [GitLab](https://gitlab.com/willtheorangeguy/deedown) before starting.
 
 * [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10) (Version 1903 or higher, with Build 18362 or higher).
 * A [text editor](https://code.visualstudio.com/).

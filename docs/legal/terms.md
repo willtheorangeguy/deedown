@@ -100,4 +100,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By visiting our GitHub page: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown).
+- By visiting our GitHub page: [github.com/willtheorangeguy/deedown](https://github.com/willtheorangeguy/deedown).
