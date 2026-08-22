@@ -1,0 +1,50 @@
+# Documentation site for this repository.
+#
+# All build logic lives in willtheorangeguy/mkdocs. This file only says
+# "build my docs" and grants the permissions the reusable workflow needs.
+# Do not add build steps here — change the template repository instead.
+
+name: Docs
+
+on:
+  push:
+    # Covers both branch conventions without per-repo editing.
+    branches: [main, master]
+    paths:
+      - 'docs/**'
+      - 'overrides/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/docs.yml'
+      - 'CHANGELOG.md'
+      - 'CONTRIBUTING.md'
+      - 'CODE_OF_CONDUCT.md'
+      - 'SECURITY.md'
+      - 'LICENSE.md'
+  workflow_dispatch:
+
+# A reusable workflow cannot grant its own permissions. These three are
+# required; the deploy step fails with a confusing OIDC error without them.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel a deployment mid-flight — a half-published site is worse
+# than a slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  docs:
+    uses: willtheorangeguy/mkdocs/.github/workflows/docs-build.yml@main
+
+    # ---------------------------------------------------------------------
+    # ONLY for repos that already serve an application at the Pages root.
+    # Uncomment to publish the app at / and the docs at /docs/.
+    #
+    # You must also DELETE the repo's existing Pages workflow. Two workflows
+    # deploying to Pages will fight over the deployment and one will fail.
+    # ---------------------------------------------------------------------
+    # with:
+    #   docs_subpath: docs

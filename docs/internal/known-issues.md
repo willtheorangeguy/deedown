@@ -7,12 +7,11 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **7 open:** 1 high, 4 medium, 2 low.
 
 ## 1. The repository documents a twelve-step setup for code it does not contain
 
-**Severity:** High  
+**Severity:** High
 **Where:** `1_playlists.cmd`; `README.md` and `docs/usage.md` steps 5 and 7
 
 **What:** `1_playlists.cmd` deletes four files from `deedown/`, does `cd deedown`, and runs `wsl.exe -d Ubuntu python3 get_playlists.py`. There is no `deedown/` directory in this repository and no `get_playlists.py`. Step 5 of the setup instructions tells the reader to edit `secrets.py` in that directory; that file is not here either. What is here is three wrapper scripts, `requirements.txt`, and the docs. The README tagline does say the full code is on GitLab.
@@ -25,7 +24,7 @@ A partial mirror is a reasonable thing to want -- GitHub for visibility, GitLab 
 
 ## 2. 3_move.cmd deletes the download directory whether or not the move succeeded
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `3_move.cmd`
 
 **What:**     robocopy /move /e /nfl /njh "%USERPROFILE%\Downloads\deedwn\music" ...
@@ -41,7 +40,7 @@ The `deedwn` spelling is used consistently in both lines, so it is not a typo in
 
 ## 3. The shebang in 2_download.sh is on line 16
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `2_download.sh`
 
 **What:** The file opens with a fifteen-line GPL comment header, and `#!/bin/bash` appears after it. A shebang is only a shebang on line 1; anywhere else it is an ordinary comment. The documentation tells the reader to run the script as `./2_download.sh`.
@@ -54,7 +53,7 @@ The same header is at the top of both `.cmd` files, where `rem` comments are har
 
 ## 4. Nothing warns that the arl is a full-account session token
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `README.md` and `docs/usage.md` step 11 (both amended in this pass)
 
 **What:** Step 11 instructs the reader to open devtools on deezer.com, find the `arl` cookie, copy it, and paste it into the terminal. It is described only as a long code the script may ask for. Nothing said what it is, how long it lasts, or what someone else could do with it.
@@ -63,22 +62,22 @@ The same header is at the top of both `.cmd` files, where `rem` comments are har
 
 This is a documentation defect rather than a code one -- the script does the right thing by letting deemix prompt for it and store it -- but the omission is the part that causes harm.
 
-**Suggested fix:** Amended in this pass: the README, `docs/README.md`, `docs/usage.md`, and `docs/configuration.md` all now say what the `arl` is and that it belongs only in the terminal prompt. A line in `.gitignore` covering the file deemix stores it in would be worth adding.
+**Suggested fix:** Amended in this pass: the README, `docs/index.md`, `docs/usage.md`, and `docs/configuration.md` all now say what the `arl` is and that it belongs only in the terminal prompt. A line in `.gitignore` covering the file deemix stores it in would be worth adding.
 
 ## 5. The terms the workflow breaks are linked but never stated
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `README.md` (amended in this pass); `docs/legal/deezer.md`
 
 **What:** `docs/legal/deezer.md` links Deezer terms of use and privacy policy under the heading "By using this service, you agree to also adhere to the following documents". Nothing anywhere said that the documented workflow -- extracting a session token and using deemix to pull the audio for entire playlists -- is contrary to those terms, or that the output is copyrighted recordings.
 
 **Why it matters:** A link to a terms page is a formality; a sentence saying which term this breaks is information. The repository is public, the guide is complete and beginner-friendly down to which browser to use, and a reader could reasonably finish it without ever realising the activity is not permitted by the account they are using. That gap is worth closing whether or not the tool continues to exist -- the tool works either way; the reader deciding whether to use it does not have what they need.
 
-**Suggested fix:** Amended in this pass: the README and `docs/README.md` now say plainly that downloading this way is contrary to Deezer terms and that the files are copyrighted recordings, alongside the existing links. Whether to keep the repository public is a separate decision and yours -- compare `Chavo-del-Ocho-Scaper`, which was stopped for the same class of question.
+**Suggested fix:** Amended in this pass: the README and `docs/index.md` now say plainly that downloading this way is contrary to Deezer terms and that the files are copyrighted recordings, alongside the existing links. Whether to keep the repository public is a separate decision and yours -- compare `Chavo-del-Ocho-Scaper`, which was stopped for the same class of question.
 
 ## 6. The download script ships the author own playlists rather than placeholders
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `2_download.sh`
 
 **What:** Eight Deezer playlist URLs are commented out above the array, and one is live inside it. All nine are real playlist IDs. The instructions describe them as placeholders and say to replace them, referring to `https://www.deezer.com/en/playlist` as the placeholder form.
@@ -91,15 +90,14 @@ Minor, and nothing is exposed -- Deezer playlist IDs are public -- but it is a s
 
 ## 7. The legal documents linked their contact address without a scheme
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `docs/legal/privacy.md` and `docs/legal/terms.md` (both corrected in this pass)
 
-**What:** Both ended with "By visiting our GitHub page: [github.com/willtheorangeguy/deedown](github.com/willtheorangeguy/deedown)". With no scheme, Markdown treats the target as a relative path, so it resolves to `docs/legal/github.com/willtheorangeguy/deedown` and 404s.
+**What:** Both ended with "By visiting our GitHub page: [github.com/willtheorangeguy/deedown](https://github.com/willtheorangeguy/deedown)". Without the scheme in the original target, Markdown treated it as a relative path, so it resolved to `docs/legal/github.com/willtheorangeguy/deedown` and returned 404.
 
 **Why it matters:** It is the contact route in a privacy policy -- the link a reader follows to ask what is held about them -- and it goes nowhere. Identical wording appears in `willtheorangeguy.github.io`, which suggests both were copied from the same template and the defect is wherever that template lives. A schemeless Markdown link is also invisible to review: it looks correct in source and fails only when rendered.
 
 **Suggested fix:** Corrected in this pass in both files. Worth grepping every repository for `](github.com/` and fixing the template these came from -- two repositories have now been found with it.
-
 
 ---
 

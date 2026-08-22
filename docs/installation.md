@@ -6,12 +6,12 @@ Windows-plus-WSL only: two scripts are `cmd`, one is bash, and `deemix` is a Lin
 > The Python package the scripts call is **not in this repository** — get `deedown/` from
 > [GitLab](https://gitlab.com/willtheorangeguy/deedown) before starting.
 
-* [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10) (Version 1903 or higher, with Build 18362 or higher).
-* A [text editor](https://code.visualstudio.com/).
-* Windows Subsystem for Linux.
-* An [Ubuntu](https://www.microsoft.com/store/apps/9n6svws3rx71), [Kali](https://www.microsoft.com/store/apps/9PKR34TNCV07) or [Debian](https://www.microsoft.com/store/apps/9MSVKQC78PK6) image from the Microsoft Store (others may work, but are untested).
-* [Python 3](https://www.python.org/downloads/) (and `pip`).
-* The following Python Packages: (these do not need to be individually installed, installation instructions can be found below)
+- [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10) (Version 1903 or higher, with Build 18362 or higher).
+- A [text editor](https://code.visualstudio.com/).
+- Windows Subsystem for Linux.
+- An [Ubuntu](https://www.microsoft.com/store/apps/9n6svws3rx71), [Kali](https://www.microsoft.com/store/apps/9PKR34TNCV07) or [Debian](https://www.microsoft.com/store/apps/9MSVKQC78PK6) image from the Microsoft Store (others may work, but are untested).
+- [Python 3](https://www.python.org/downloads/) (and `pip`).
+- The following Python Packages: (these do not need to be individually installed, installation instructions can be found below)
 
 ```text
 urwid
@@ -30,7 +30,7 @@ urllib3==1.25.10
 webencodings==0.5.1
 ```
 
-* A [Spotify](https://www.spotify.com/us/signup/) account.
-* A [Deezer](https://www.deezer.com/en/register) account.
-* Some Spotify or Deezer playlists.
-* The [_deedown_ code](https://gitlab.com/willtheorangeguy/deedown/-/archive/main/deedown-main.zip) from this repo.
+- A [Spotify](https://www.spotify.com/us/signup/) account.
+- A [Deezer](https://www.deezer.com/en/register) account.
+- Some Spotify or Deezer playlists.
+- The [_deedown_ code](https://gitlab.com/willtheorangeguy/deedown/-/archive/main/deedown-main.zip) from this repo.

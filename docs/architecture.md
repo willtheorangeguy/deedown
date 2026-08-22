@@ -4,7 +4,7 @@ Three scripts, run by hand in order, with a manual step between the first and th
 in Windows `cmd`, one in a WSL shell — the split exists because `deemix` is a Linux tool and the
 file handling is easier in Windows.
 
-```
+```text
 1_playlists.cmd  (cmd)   clears old state, runs the Python package under WSL,
                          which reads Spotify and creates the playlists on Deezer
         |
@@ -21,7 +21,7 @@ file handling is easier in Windows.
 Deletes `error_log.log`, `new_playlists.txt`, `last_playlists.txt`, and `playlists.txt` from
 `deedown\`, changes into that directory, and runs:
 
-```
+```text
 wsl.exe -d Ubuntu python3 get_playlists.py
 ```
 
@@ -52,7 +52,7 @@ on it. Recorded in [`internal/known-issues.md`](./internal/known-issues.md).
 
 ## `3_move.cmd`
 
-```
+```text
 robocopy /move /e /nfl /njh "%USERPROFILE%\Downloads\deedwn\music" "%USERPROFILE%\Music\Deemix Music"
 rmdir /s /q "%USERPROFILE%\Downloads\deedwn"
 ```

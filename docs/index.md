@@ -10,7 +10,7 @@ scripts, run in order, on Windows with WSL.
 program; following it against this repository alone will fail at step one. See
 [`internal/known-issues.md`](./internal/known-issues.md).
 
-```
+```text
 docs/
 ├── README.md            this index
 ├── installation.md      operating system, WSL, Python packages, accounts

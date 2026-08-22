@@ -1,0 +1,36 @@
+# Documentation configuration for deedown.
+
+INHERIT: .mkdocs-shared/shared/mkdocs.base.yml
+
+site_name: 'deedown'
+site_description: 'Automatic Spotify to Deezer playlist updater, and deemix track downloader. Only a placeholder repo - all the code can be found on the GitLab link below!'
+site_author: willtheorangeguy
+site_url: https://williamvdg.me/deedown/
+
+repo_url: https://github.com/willtheorangeguy/deedown
+repo_name: willtheorangeguy/deedown
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; willtheorangeguy
+
+nav:
+  - Home: index.md
+  - 'Installation': 'installation.md'
+  - 'Usage': 'usage.md'
+  - 'Configuration': 'configuration.md'
+  - 'Architecture': 'architecture.md'
+  - 'Troubleshooting': 'troubleshooting.md'
+  - 'Roadmap': 'roadmap.md'
+  - 'deedown': 'internal/known-issues.md'
+  - 'Deezer Privacy and Terms': 'legal/deezer.md'
+  - 'Privacy Policy': 'legal/privacy.md'
+  - 'Spotify Privacy and Terms': 'legal/spotify.md'
+  - 'Terms and Conditions': 'legal/terms.md'
+  - Changelog: changelog.md
+  - License: license.md
+  - Contributing: https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md
+  - Code of Conduct: https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md
+  - Security: https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md
+
+exclude_docs: |
+  docs.instructions.md

@@ -129,3 +129,24 @@ dmypy.json
 .pyre/
 .bandit/
 .recall/
+
+# Append these lines to the target repository's .gitignore.
+#
+# All three are generated at build time from the template repository. If any
+# of them gets committed, a stale copy will start overriding the shared
+# version and the site will silently drift from the rest.
+
+# --- Documentation build artifacts ---
+site/
+.mkdocs-shared/
+docs/stylesheets/
+docs/javascript/
+docs/images/favicon.svg
+
+# Theme overrides staged from the template repository. Staging is
+# no-clobber, so a committed copy would freeze this repo on an old version
+# of a shared partial. To genuinely override one for this repo, remove its
+# line here and commit the file deliberately.
+overrides/main.html
+overrides/partials/
+overrides/.icons/

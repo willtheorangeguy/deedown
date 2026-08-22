@@ -1,0 +1,25 @@
+# Documentation CI for this repository.
+#
+# Runs on pull requests: markdown style, a strict MkDocs build, and an
+# external link check. Never deploys.
+
+name: Docs Lint
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'overrides/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/docs-lint.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    uses: willtheorangeguy/mkdocs/.github/workflows/docs-lint.yml@main
+    # Repos with many third-party links can turn the link checker off:
+    # with:
+    #   check_links: false

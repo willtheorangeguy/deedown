@@ -75,7 +75,7 @@ The twelve-step walkthrough is in [`docs/usage.md`](docs/usage.md).
 
 ## Documentation
 
-Full documentation lives in [`docs/`](docs/README.md):
+Full documentation lives in [`docs/`](docs/index.md):
 [Installation](docs/installation.md) · [Usage](docs/usage.md) · [Configuration](docs/configuration.md) · [Architecture](docs/architecture.md) · [Troubleshooting](docs/troubleshooting.md) · [Roadmap](docs/roadmap.md)
 
 Legal notices are in [`docs/legal/`](docs/legal/): [Deezer](docs/legal/deezer.md) · [Spotify](docs/legal/spotify.md) · [Privacy Policy](docs/legal/privacy.md) · [Terms](docs/legal/terms.md)
